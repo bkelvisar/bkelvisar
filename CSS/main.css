@@ -1,0 +1,75 @@
+
+body {
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+  padding: 5px;
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+header img{
+	height:10%;
+	width:10%;
+}
+
+header h1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	margin: 0;
+	color: #000000;
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url("Slike/index/uvonda_jumbo_racunalnik.jpg");
+	background-size: cover;
+	height: 600px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2{
+	font-size: 50px;
+	font-weight: 600px;
+	color: #ffffff;
+	margin: 10px 30px 20px;
+}
+
+.jumbotron h3{
+	font-size: 30px;
+	font-weight: 300px;
+	color: #ffffff;
+	margin: 10px 120px 10px;
+}
+
+section .row img {
+	background-image: url("Slike/index/uvonda_jumbo_racunalnik.jpg");
+	margin: 0 0 30px;
+	width: 100%;
+}
+
+.col-md-6 {
+	margin: 0 0 30px;
+	
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #FF0013;
+}
+	
+	
+	
